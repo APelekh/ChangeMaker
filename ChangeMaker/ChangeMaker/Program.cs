@@ -26,13 +26,6 @@ namespace ChangeMaker
             Console.ReadKey();
         }
 
-
-        public static Change ChangeAmountShorter(decimal amount)
-        {
-            Change amountAsChange = new Change();
-            amountAsChange.Quarters = TakeASomething(0.25m, ref amount);
-        }
-        
         /// <summary>
        /// Calculates and prints out the amounts of quartes, dimes, nickels and pennies that particular amount has
        /// </summary>
